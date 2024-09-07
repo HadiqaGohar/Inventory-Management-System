@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Inventory Management System</h1>
+    </header>
+
+    <main>
+        <table id="inventory-table">
+            <thead>
+                <tr>
+                    <th>Product Name</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Dynamic product rows will be inserted here -->
+            </tbody>
+        </table>
+    </main>
+	<div id="product-form">
+        <input type="text" id="product-name" placeholder="Product Name">
+        <input type="number" id="product-quantity" placeholder="Quantity">
+        <input type="number" id="product-price" placeholder="Price">
+        <button id="add-product-btn">Add Product</button>
+    </div>
+
+    <footer>
+        <p>Copyright &copy; 2024 by Hadiqa Gohar | All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

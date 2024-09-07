@@ -1,0 +1,53 @@
+/* Style the header */
+header {
+    background-color: #4CAF50;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+/* Style the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+/* Alternating row colors */
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Input fields and button */
+input[type="text"], input[type="number"] {
+    padding: 10px;
+    margin: 5px;
+    width: 20%;
+}
+
+button {
+    padding: 10px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
